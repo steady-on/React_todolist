@@ -10,6 +10,7 @@ const TodoList = () => {
     return (
         <Layout>
             <Header />
+            <Form />
         </Layout>
     )
 }

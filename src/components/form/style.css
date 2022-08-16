@@ -1,0 +1,14 @@
+.add-form {
+    background-color: #A4CAEB;
+    height: 70px;
+
+    margin: 0 auto;
+    display: flex;    
+}
+
+.input-group {
+    max-width: 700px;
+    display: flex;
+    align-items: left;
+    margin: auto 20px;
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-const header = () => {
+const Header = () => {
     return (
-        <div className="header">
-            <div>My To-do List</div>
+        <div className="header-box">
+            <h1>My To-do List</h1>
             <div>Made by Me</div>
         </div>
     )
