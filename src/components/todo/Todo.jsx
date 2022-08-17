@@ -3,10 +3,10 @@ import "./style.css";
 
 const Todo = ({todo, onDeleteHandler, onEditHandler}) =>{
     return (
-        <div className="todo-box">
-            <div>
-                <h2 className="todo-title">{todo.title}</h2>
-                <div>{todo.details}</div>
+        <div className="card">
+            <div class="card-body">
+                <h4 className="card-title">{todo.title}</h4>
+                <p class="card-text">{todo.details}</p>
             </div>
             <div className="button-set">
                 <button type="button" className="btn btn-outline-danger" onClick={()=>onDeleteHandler(todo.id)}>❌ Delete</button>
